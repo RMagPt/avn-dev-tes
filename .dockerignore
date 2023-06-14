@@ -1,0 +1,10 @@
+.git
+**/target/
+**/*.txt
+**/*.md
+/docker/
+!/target/release/avn-dev-node
+!/target/release/wbuild/avn-dev-runtime/avn_dev_runtime.compact.compressed.wasm
+
+# dotfiles in the repo root
+/.*
